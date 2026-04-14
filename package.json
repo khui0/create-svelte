@@ -2,8 +2,17 @@
   "name": "@kennyhui/create-svelte",
   "version": "1.0.0",
   "description": "An opinionated SvelteKit generator",
-  "author": "Kenny Hui (kennyhui.dev)",
+  "author": "Kenny Hui",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khui0/create-svelte.git"
+  },
+  "keywords": [
+    "template",
+    "generator",
+    "sveltekit"
+  ],
   "type": "module",
   "main": "index.js",
   "bin": "dist/index.js",
