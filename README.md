@@ -1,5 +1,5 @@
 # SvelteKit Project Generator
 
-`npm init @kennyhui/svelte`
+Generates a SvelteKit project with [daisyUI](https://github.com/saadeghi/daisyui) and [unplugin-icons](https://github.com/unplugin/unplugin-icons)
 
-Based off [sean-nicholas/ts-starter](https://github.com/sean-nicholas/ts-starter)
+`npm init @kennyhui/svelte`
