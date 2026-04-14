@@ -1,0 +1,24 @@
+{
+  "name": "@kennyhui/create-svelte",
+  "version": "1.0.0",
+  "description": "An opinionated SvelteKit generator",
+  "author": "Kenny Hui (kennyhui.dev)",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "bin": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/common-tags": "^1.8.4",
+    "@types/node": "^25.6.0",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "common-tags": "^1.8.2"
+  }
+}
