@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/khui0/create-svelte.git"
+    "url": "git+https://github.com/khui0/create-svelte.git"
   },
   "keywords": [
     "template",
@@ -15,7 +15,9 @@
   ],
   "type": "module",
   "main": "index.js",
-  "bin": "dist/index.js",
+  "bin": {
+    "create-svelte": "dist/index.js"
+  },
   "files": [
     "dist/"
   ],
